@@ -1,0 +1,68 @@
+h2{
+ display:inline;
+}
+#title{
+  text-align: center;
+  border-width:1px;
+  border-style:solid;
+  border-color:black;
+  padding: 10px;
+  margin-bottom:10px;
+}
+#layout2{
+  display: inline;
+  float: right;
+}
+table, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width:100%;
+  text-align: center;
+  table-layout: fixed;
+  padding:10px;
+}
+#row2{
+  height:600px;
+}
+td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  vertical-align:top;
+}
+#background,#backgroundCh{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0,0,0,0.3);
+  display: none;
+}
+#window,#windowCh{
+  position:relative;
+  width:100%;
+  height:100%;
+}
+#prompt,#promptCh{
+  position: absolute;
+  width:500px;
+  height: 200px;
+  margin:100px;
+  padding:20px;
+  top:40%;
+  left:45%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  background-color:#fff;
+  border-radius:3px;
+}
+#close,#closeCh{
+  float:right;
+}
+form,#btSet,#btSetCh{
+  margin:15px;
+}
+select, input{
+  border:1px solid black;
+  border-radius:3px;
+}
